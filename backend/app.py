@@ -29,7 +29,7 @@ CORS(
         r"/*": {
             "origins": os.getenv(
                 "CORS_ORIGINS",
-                "http://localhost:3000"
+                "http://52.47.138.195:5000";
             ).split(",")
         }
     },
